@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Paul Pela / Pawel Pela</title>
+        <title>Paul Pela / Paweł Pela</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <style>
@@ -42,19 +42,49 @@
                 margin: 0px auto 100px;
                 border: 2px solid #fff;
                 border-radius: 100%;
-                box-shadow: 1px 1px 5px rgba(0,0,0,0.5)
+                box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+            }
+
+            main a:hover {
+                color: #a8a8a8;
             }
 
             .center {
                 text-align: center;
             }
+
+            main section {
+                font-size: 14px;
+            }
+
+            main section ul {
+                list-style-type: none;
+                padding-left: 0px;
+            }
+
+            main section a {
+                border-bottom: 1px solid;
+            }
+
         </style>
 </head>
 <body>
     <main>
         <img src="avatar.jpg" alt="Paul Pela / Pawel Pela" class="avatar" />
 
-        <p class="center"><a href="mailto:paulpela@gmail.com"><i class="fa fa-envelope"></i></a></p>
+        <p class="center">
+            <a href="mailto:paulpela@gmail.com"><i class="fa fa-envelope"></i></a>
+            &nbsp;
+            <a href="https://github.com/paulpela"><i class="fa fa-github"></i></a> 
+        </p>
+
+        <section id="projects">
+            <h2>Some of my projects:</h2>
+
+            <ul>
+                <li><a href="https://github.com/paulpela/vesa-life">vesa-life</a> &mdash; a Conway's <em>Game of Life</em> implementation in pure x86_64 bit asm with 640x480 VESA graphics (<a href="/downloads/vesa-life.zip" title="vesa-life floppy image">download a compiled floppy image</a> which can be run in VirtualBox)</li>
+            </ul>
+        </section>
     </main>
 </body>
 </html>
