@@ -99,6 +99,10 @@ article ul {
     padding-left: 0px;
 }
 
+article ul li {
+    margin-bottom: 10px;
+}
+
 article section {
     margin-bottom: 50px;
 }
