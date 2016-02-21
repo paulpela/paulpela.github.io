@@ -73,3 +73,28 @@ main section a {
     color: #eee;
 }
 
+article {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 50px;
+    border-radius: 2px;
+    width: 600px;
+    margin: 25px auto;
+    font-size: 16px;
+}
+
+article header p {
+    font-size: 14px;
+}
+
+article a {
+    font-weight: 600;
+}
+
+article a:hover {
+    color: #aaa;
+}
+
+article ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
